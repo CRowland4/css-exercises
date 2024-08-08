@@ -1,3 +1,4 @@
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,21 +8,34 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 0.05px;  /* Prevents top margin collapsing */
 }
 
 .title {
   background: #e3f4ff;
+  padding: 7px;
+  margin: 16px 8px 8px 8px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 8px;
+  padding: 7px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto;
+  padding: 5px 15px;
 }
